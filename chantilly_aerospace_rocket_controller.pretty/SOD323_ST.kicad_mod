@@ -1,0 +1,61 @@
+(footprint "SOD323_ST" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (descr "<b>SOD-323</b><p>Source: www.st.com, BAT60J.pdf")
+  (attr smd)
+  (fp_text reference "REF**" (at 1.525 -1.385) (layer "F.SilkS")
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 2e45316e-ad76-43b9-8f4e-768df54c91cb)
+  )
+  (fp_text value "SOD323_ST" (at 4.065 1.365) (layer "F.Fab")
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 32e3bd53-5e41-45ba-82c3-3872142c0e0d)
+  )
+  (fp_line (start -0.85 -0.55) (end 0.85 -0.55)
+    (stroke (width 0.1016) (type solid)) (layer "F.SilkS") (tstamp c8c63654-8f6a-4f4c-89e8-53c0dec6ac2b))
+  (fp_line (start 0.85 0.55) (end -0.85 0.55)
+    (stroke (width 0.1016) (type solid)) (layer "F.SilkS") (tstamp 4aae8c5b-a1e4-42cc-83b9-be985423db18))
+  (fp_poly
+    (pts
+      (xy -0.65 -0.55)
+      (xy -0.05 -0.55)
+      (xy -0.05 0.55)
+      (xy -0.65 0.55)
+    )
+
+    (stroke (width 0.01) (type solid)) (fill solid) (layer "F.SilkS") (tstamp 0f7ef4b8-8084-437c-a834-d35090fa0f6b))
+  (fp_line (start -0.85 0.55) (end -0.85 -0.55)
+    (stroke (width 0.1016) (type solid)) (layer "F.Fab") (tstamp e4d58cf5-cf38-4392-a678-bada5cc4eb4d))
+  (fp_line (start 0.85 -0.55) (end 0.85 0.55)
+    (stroke (width 0.1016) (type solid)) (layer "F.Fab") (tstamp c86cc569-42fe-402c-a50c-62ada54bc2ac))
+  (fp_poly
+    (pts
+      (xy -1.35 -0.15)
+      (xy -0.8 -0.15)
+      (xy -0.8 0.15)
+      (xy -1.35 0.15)
+    )
+
+    (stroke (width 0.01) (type solid)) (fill solid) (layer "F.Fab") (tstamp 676b8ebc-dc9b-40aa-a612-6623c1ab72fb))
+  (fp_poly
+    (pts
+      (xy -0.85 -0.55)
+      (xy -0.05 -0.55)
+      (xy -0.05 0.55)
+      (xy -0.85 0.55)
+    )
+
+    (stroke (width 0.01) (type solid)) (fill solid) (layer "F.Fab") (tstamp 8556fc5b-b39d-4806-bda3-8645c4ef4d5e))
+  (fp_poly
+    (pts
+      (xy 0.8 -0.15)
+      (xy 1.35 -0.15)
+      (xy 1.35 0.15)
+      (xy 0.8 0.15)
+    )
+
+    (stroke (width 0.01) (type solid)) (fill solid) (layer "F.Fab") (tstamp 5064441e-9876-488b-9986-70deaa74518c))
+  (pad "A" smd rect (at 1.25 0) (size 0.8 0.6) (layers "F.Cu" "F.Paste" "F.Mask")
+    (solder_mask_margin 0.102) (tstamp 8565b700-1eec-4e34-9f95-bbff4883a93b))
+  (pad "C" smd rect (at -1.25 0) (size 0.8 0.6) (layers "F.Cu" "F.Paste" "F.Mask")
+    (solder_mask_margin 0.102) (tstamp e40067b7-99d5-4373-96da-24d2ff9d578a))
+)
